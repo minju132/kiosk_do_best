@@ -1,31 +1,31 @@
 <script setup>
 import { useRouter } from "vue-router";
-import {useBlogStore} from '../stores/blog';
+import {useReMenuStore} from '../stores/menu';
 import { watchEffect, ref } from "vue";
 
-const {postBlog, postHandler} = useBlogStore();
+const {postReMenu, postHandler} = useReMenuStore();
 
 const handler = () =>{
-    postHandler(postBlog);
+    postHandler(postReMenu);
 }
 </script>
 
 <template>
      <div class="blogContainer">
         <div class="titleContainer">
-           <input v-model="postBlog.title" placeholder="제목을 입력해주세요" class=""/>
+           <input v-model="postReMenu.title" placeholder="제목을 입력해주세요" class=""/>
         </div>
         <div class="content">
             <div>
-                <textarea v-model="postBlog.content" ></textarea>
+                <textarea v-model="postReMenu.content" ></textarea>
             </div>
             <div class="imgContainer">
                 <div>
                     <label> 이미지 url : </label>
-                    <input class="imgInput" v-model="postBlog.img" />
+                    <input class="imgInput" v-model="postReMenu.img" />
                 </div>
-                <template v-if="postBlog.img">
-                    <img class="imgBox" :src="postBlog.img" />
+                <template v-if="postReMenu.img">
+                    <img class="imgBox" :src="postReMenu.img" />
                 </template>
             </div>
         </div>

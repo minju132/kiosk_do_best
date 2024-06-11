@@ -1,221 +1,302 @@
 {
-  "scholar": [
-      {
-          "id": 0,
-          "name": "Evan You",
-          "introduction": "Vue.js와 프론트엔드 빌드 도구 Vite 프레임워크의 창시자로 해당 프레임워크의 대부분을 개발하고 오픈 소스로 공개하여 많은 개발자가 사용할 수 있도록 함.",
-          "img": "https://images.ctfassets.net/s5uo95nf6njh/5PpFIeuDxz2T89nZNED1EP/48d62a69f31a3ab6dfc58938eb7b8c2a/evan-you-portrait.jpg?w=1200&fm=jpg"
-      },
-      {
-          "id": 1,
-          "name": "James Gosling",
-          "introduction": "캐나다 출신의 컴퓨터 과학자로, 자바(Java) 프로그래밍 언어의 창시자",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/14/James_Gosling_2008.jpg/225px-James_Gosling_2008.jpg"
-      },
-      {
-          "id": 2,
-          "name": "Linus Torvalds",
-          "introduction": "태어난 스웨덴계 핀란드인으로서 소프트웨어 엔지니어이자 리눅스 커널과 깃을 최초로 개발한 사람",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/01/LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg/255px-LinuxCon_Europe_Linus_Torvalds_03_%28cropped%29.jpg"
-      },
-      {
-          "id": 3,
-          "name": "Steven Paul Jobs",
-          "introduction": "처음으로 PC에 GUI를 사용, mouse를 PC에 적용하여 대중화, 온라인 음악시장의 성공적인 모델을 보여준 인물",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/dc/Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg/225px-Steve_Jobs_Headshot_2010-CROP_%28cropped_2%29.jpg"
-      },
-      {
-          "id": 4,
-          "name": "Tim Berners-Lee",
-          "introduction": "1990년에 인터넷과 하이퍼텍스트의 개념을 합치면서 WWW{World Wide Web}을 만들어 냈다",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Sir_Tim_Berners-Lee_%28cropped%29.jpg/220px-Sir_Tim_Berners-Lee_%28cropped%29.jpg"
-      },
-      {
-          "id": 5,
-          "name": "Bill Gates",
-          "introduction": "마이크로소프트를 창립하고 윈도우즈 운영체제를 개발하여 개인용 컴퓨터 보급에 큰 역할을 했다",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Bill_Gates_-_2023_-_P062021-967902_%28cropped%29.jpg/220px-Bill_Gates_-_2023_-_P062021-967902_%28cropped%29.jpg"
-      },
-      {
-          "id": 6,
-          "name": "Richard Stallman",
-          "introduction": "오픈 소스 운동과 GNU 프로젝트의 창시자로 알려져 있다.",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Richard_Stallman_at_LibrePlanet_2019.jpg/220px-Richard_Stallman_at_LibrePlanet_2019.jpg"
-      },
-      {
-          "id": 7,
-          "name": "Ted Codd",
-          "introduction": "영국의 컴퓨터 과학자로, 관계형 데이터베이스의 개념을 처음 제안한 주요 인물 ",
-          "img": "https://upload.wikimedia.org/wikipedia/en/thumb/5/58/Edgar_F_Codd.jpg/150px-Edgar_F_Codd.jpg"
-      },
-      {
-          "id": 8,
-          "name": "Alan Turing",
-          "introduction": "컴퓨터 과학과 인공지능 분야의 선구자로, 튜링 기계 개념과 튜링 테스트 등을 제시한 수학자",
-          "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/17/Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University.jpg/220px-Alan_Turing_%281912-1954%29_in_1936_at_Princeton_University.jpg"
-      }
+  "reMenu": [
+    {
+      "id": "1",
+      "name": "딸기듬뿍라떼",
+      "price": "5,800",
+      "img": "https://i.ibb.co/MpgHptj/image.png"
+    },
+    {
+      "id": "2",
+      "name": "딸기 아이스크림",
+      "price": "5,000",
+      "img": "https://i.ibb.co/G50nb98/removebg.png"
+    },
+    {
+      "id": "3",
+      "name": "라벤더 카페 브레베",
+      "price": "5,500",
+      "img": "https://i.ibb.co/zVvbqxh/image.png"
+    },
+    {
+      "id": "4",
+      "name": "그린티라떼",
+      "price": "4,800",
+      "img": "https://i.ibb.co/Fhh5DMr/jpg.png"
+    },
+    {
+      "id": "5",
+      "name": "로얄밀크티",
+      "price": "4,800",
+      "img": "https://i.ibb.co/k9KSfvP/jpg.png"
+    },
+    {
+      "id": "6",
+      "name": "수박주스",
+      "price": "6,000",
+      "img": "https://i.ibb.co/pWsGQBf/image.png"
+    },
+    {
+      "id": "7",
+      "name": "토마토주스",
+      "price": "6,000",
+      "img": "https://i.ibb.co/dMCjkXf/image.png"
+    },
+    {
+      "id": "8",
+      "name": "레이어 가나슈 케이크",
+      "price": "5,000",
+      "img": "https://i.ibb.co/fXN8Gks/jpg.png"
+    },
+    {
+      "id": "9",
+      "name": "딸기초코 생크림 케이크",
+      "price": "5,500",
+      "img": "https://i.ibb.co/x8HP36Y/jpg.png"
+    }
   ],
-  "msaSkill": [
-      {
-          "id": 0,
-          "skill": "컨테이너",
-          "list": [
-              "Podman",
-              "Docker",
-              "Buildah"
-          ],
-          "introduction": "컨테이너는 애플리케이션과 그 의존성을 하나의 패키지로 묶어 배포 및 실행할 수 있도록 하는 기술",
-          "imgs": [
-              "https://blog.kakaocdn.net/dn/DOrtu/btrtwkC0Syd/Lp9pyw9zWtoMvmiMJgFZSk/img.png",
-              "https://blog.kakaocdn.net/dn/crVZJi/btsB7PtWTW1/RjPjZM14myutvk0Zb6Fuck/img.png",
-              "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRktLoqt1MECTjk_yJBvNCBf1tJcYuHSZ2nCY0eQRtvQMNobVzF71TeMtyNg_qCjU6ZHGo&usqp=CAU"
-          ]
-      },
-      {
-          "id": 1,
-          "skill": "오케스트레이션",
-          "list": [
-              "Kubernetes",
-              "Docker Swarm",
-              "Nomad"
-          ],
-          "introduction": "오케스트레이션 기술은 여러 컨테이너를 관리하고 조율하는 데 사용",
-          "imgs": [
-              "https://velog.velcdn.com/images/squarebird/post/a6dd8c26-b133-4e51-9241-92f1631954b2/image.png",
-              "https://getcarina.github.io/jupyterhub-tutorial/slides/img/docker-swarm.png",
-              "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Nomad.png/_jcr_content/renditions/cq5dam.web.1280.1280.png"
-          ]
-      },
-      {
-          "id": 2,
-          "skill": "API 게이트웨이",
-          "list": [
-              "Spring Cloud Gateway",
-              "Netflix Zuul",
-              "AWS API Gateway"
-          ],
-          "introduction": "API 게이트웨이는 클라이언트와 마이크로서비스 간의 통신을 중개하는 역할",
-          "imgs": [
-              "https://velog.velcdn.com/images/junyoungs7/post/868647fc-b2e6-439a-8260-6956b734fd2c/image.png",
-              "https://camo.githubusercontent.com/c9c03fc8fd1261971c38aafd0b95f59eee0af2b435277586949579dfe8b5198d/68747470733a2f2f692e696d6775722e636f6d2f6d52536f7345702e706e67",
-              "https://www.prolim.com/wp-content/uploads/2019/09/amazon-api-gatewat-1.jpg"
-          ]
-      },
-      {
-          "id": 3,
-          "skill": "서비스 디스커버리",
-          "list": [
-              "eureka",
-              "Consul",
-              "ZooKeeper"
-          ],
-          "introduction": "서비스 디스커버리는 클라이언트가 필요한 서비스를 찾을 수 있도록 하는 기술",
-          "imgs": [
-              "https://img1.daumcdn.net/thumb/R800x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FcyuEGB%2Fbtra4XyMBh7%2FNoYCojKK2FJKxo9LnquKKK%2Fimg.png",
-              "https://connect.redhat.com/s3api/prod-s3api/1627597739-logo-url-60f9f0a2457b3a081d621c41.png",
-              "https://www.ibm.com/content/dam/adobe-cms/instana/media_logo/Zookeeper.component.complex-narrative-xl.ts=1690899249998.png/content/adobe-cms/kr/ko/products/instana/supported-technologies/monitoring-zookeeper/_jcr_content/root/table_of_contents/body/content_section_styled/content-section-body/complex_narrative/logoimage"
-          ]
-      },
-      {
-          "id": 4,
-          "skill": "지속적인 통합 및 배포(ci/cd)",
-          "list": [
-              "gitbub actions",
-              "jenkins",
-              "circleci"
-          ],
-          "introduction": "CD는 코드 변경을 자동으로 테스트, 빌드, 배포하는 프로세스",
-          "imgs": [
-              "https://avatars.githubusercontent.com/u/44036562?s=280&v=4",
-              "https://miro.medium.com/v2/resize:fit:860/1*ByoJvUAuB0L00yk1UhkEiw.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Circleci-icon-logo.svg/220px-Circleci-icon-logo.svg.png"
-          ]
-      },
-      {
-          "id": 5,
-          "skill": "모니터링 및 로그 분석",
-          "list": [
-              "Prometheus",
-              "grafana",
-              "elkstack"
-          ],
-          "introduction": "모니터링 및 로그 분석은 서비스의 상태 및 성능을 추적",
-          "imgs": [
-              "https://prometheus.io/assets/favicons/android-chrome-192x192.png",
-              "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a1/Grafana_logo.svg/1200px-Grafana_logo.svg.png",
-              "https://burnhamforensics.com/wp-content/uploads/2019/03/elk-2.png?w=768"
-          ]
-      },
-      {
-          "id": 6,
-          "skill": "데이터 관리",
-          "introduction": " MSA에서 데이터 관리는 여러 서비스 간에 데이터를 일관되게 관리하는 것을 의미."
-      },
-      {
-          "id": 7,
-          "skill": "보안",
-          "introduction": "MSA에서 보안은 각 서비스를 보호하고 서비스 간의 통신을 안전하게 유지"
-      },
-      {
-          "id": 8,
-          "skill": "네트워킹",
-          "introduction": "MMSA에서 네트워킹은 서비스 간의 통신을 효율적이고 안정적으로 유지하는 것을 의미"
-      }
+  "coffee": [
+    {
+      "id": "1",
+      "name": "아메리카노",
+      "price": "4,000",
+      "img": "https://i.ibb.co/cTvwS49/jpg.png"
+    },
+    {
+      "id": "2",
+      "name": "카페라떼",
+      "price": "4,500",
+      "img": "https://i.ibb.co/tzYmcdW/jpg.png"
+    },
+    {
+      "id": "3",
+      "name": "카푸치노",
+      "price": "4,500",
+      "img": "https://i.ibb.co/brv61Mw/jpg.png"
+    },
+    {
+      "id": "4",
+      "name": "바닐라라떼",
+      "price": "4,800",
+      "img": "https://i.ibb.co/sjdWG8Y/jpg.png"
+    },
+    {
+      "id": "5",
+      "name": "더블 바닐라라떼",
+      "price": "5,200",
+      "img": "https://i.ibb.co/WVPJ5cc/jpg.png"
+    },
+    {
+      "id": "6",
+      "name": "연유라떼",
+      "price": "5,500",
+      "img": "https://i.ibb.co/VBVzrSj/jpg.png"
+    },
+    {
+      "id": "7",
+      "name": "카라멜 마끼아또",
+      "price": "5,500",
+      "img": "https://i.ibb.co/HnpLwBw/jpg.png"
+    },
+    {
+      "id": "8",
+      "name": "콜드브루",
+      "price": "5,500",
+      "img": "https://i.ibb.co/qsrY4ks/jpg.png"
+    },
+    {
+      "id": "9",
+      "name": "콜드브루 돌체라떼",
+      "price": "5,800",
+      "img": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Richard_Stallman_at_LibrePlanet_2019.jpg/220px-Richard_Stallman_at_LibrePlanet_2019.jpg"
+    }
   ],
-  "wine": [
-      {
-          "id": 1,
-          "name": "Emporda 2012",
-          "location": "Spain\n·\nEmpordà",
-          "image": "https://images.vivino.com/thumbs/ApnIiXjcT5Kc33OHgNb9dA_375x500.jpg"
-      },
-      {
-          "id": 2,
-          "name": "Amarone della Valpolicella Riserva N.V.",
-          "location": "Italy\n·\nAmarone della Valpolicella",
-          "image": "https://images.vivino.com/thumbs/nC9V6L2mQQSq0s-wZLcaxw_pb_x300.png"
-      },
-      {
-          "id": 3,
-          "name": "Pêra-Manca Tinto 1990",
-          "location": "Portugal\n·\nAlentejo",
-          "image": "https://images.vivino.com/thumbs/L33jsYUuTMWTMy3KoqQyXg_pb_x300.png"
-      },
-      {
-          "id": 4,
-          "name": "Cabernet Sauvignon RBS Beckstoffer To Kalon Vineyard 2015",
-          "location": "United States\n·\nOakville",
-          "image": "https://images.vivino.com/thumbs/GpcSXs2ERS6niDxoAsvESA_pb_x300.png"
-      },
-      {
-          "id": 5,
-          "name": "Wraith Cabernet Sauvignon 2013",
-          "location": "United States\n·\nNapa Valley",
-          "image": "https://images.vivino.com/thumbs/PBhGMcRNQ7aVnVNr7VgnWA_pb_x300.png"
-      },
-      {
-          "id": 6,
-          "name": "Ratsel Syrah N.V.",
-          "location": "United States\n·\nCalifornia",
-          "image": "https://images.vivino.com/thumbs/ZzMKzqFqRO-6oI3ys3gGgQ_pb_x300.png"
-      },
-      {
-          "id": 7,
-          "name": "The Beast Cabernet Sauvignon 2012",
-          "location": "United States\n·\nRutherford",
-          "image": "https://images.vivino.com/thumbs/easjTPIcS-mCQ99XoYOMgQ_pb_x300.png"
-      },
-      {
-          "id": 8,
-          "name": "Darius II Cabernet Sauvignon 2016",
-          "location": "United States\n·\nNapa Valley",
-          "image": "https://images.vivino.com/thumbs/U19RXtSdRMmoAesl2CBygA_pb_x300.png"
-      },
-      {
-          "id": 9,
-          "name": "Hurlo 2009",
-          "location": "Italy\n·\nVeneto",
-          "image": "https://images.vivino.com/thumbs/f_G1SS0eT_C6hZGGwdEZqA_pb_x300.png"
-      }
+  "deCoffee": [
+    {
+      "id": "19",
+      "name": "(디카페인) 아메리카노",
+      "price": "4,300",
+      "img": "https://i.ibb.co/qsrY4ks/jpg.png"
+    },
+    {
+      "id": "20",
+      "name": "(디카페인) 카페라떼",
+      "price": "4,800",
+      "img": "https://i.ibb.co/tzYmcdW/jpg.png"
+    },
+    {
+      "id": "21",
+      "name": "(디카페인) 카푸치노",
+      "price": "4,800",
+      "img": "https://i.ibb.co/brv61Mw/jpg.png"
+    },
+    {
+      "id": "22",
+      "name": "(디카페인) 바닐라라떼",
+      "price": "5,100",
+      "img": "https://i.ibb.co/sjdWG8Y/jpg.png"
+    },
+    {
+      "id": "23",
+      "name": "(디카페인)더블 바닐라라떼",
+      "price": "5,500",
+      "img": "https://i.ibb.co/WVPJ5cc/jpg.png"
+    },
+    {
+      "id": "24",
+      "name": "(디카페인) 연유라떼",
+      "price": "5,800",
+      "img": "https://i.ibb.co/VBVzrSj/jpg.png"
+    },
+    {
+      "id": "25",
+      "name": "(디카페인) 카라멜 마끼아또",
+      "price": "5,800",
+      "img": "https://i.ibb.co/HnpLwBw/jpg.png"
+    }
+  ],
+  "smoothie": [
+    {
+      "id": "26",
+      "name": "오리진 쉐이크",
+      "price": "5,500",
+      "img": "https://i.ibb.co/HnpLwBw/jpg.png"
+    },
+    {
+      "id": "27",
+      "name": "딸기 쉐이크",
+      "price": "5,500",
+      "img": "https://i.ibb.co/yQV5C01/image.png"
+    },
+    {
+      "id": "28",
+      "name": "초코쿠키 쉐이크",
+      "price": "5,500",
+      "img": "https://i.ibb.co/yQV5C01/image.png"
+    },
+    {
+      "id": "29",
+      "name": "딸기쿠키 쉐이크",
+      "price": "5,800",
+      "img": "https://i.ibb.co/Sy8KYkr/removebg.png"
+    }
+  ],
+  "teaAde": [
+    {
+      "id": "30",
+      "name": "유자차",
+      "price": "4,500",
+      "img": "https://i.ibb.co/PgTQ2cS/jpg.png"
+    },
+    {
+      "id": "31",
+      "name": "페퍼민트 티",
+      "price": "4,000",
+      "img": "https://i.ibb.co/ZxxQcQP/image.png"
+    },
+    {
+      "id": "32",
+      "name": "보성녹차",
+      "price": "4,000",
+      "img": "https://i.ibb.co/WWcX8jx/image.png"
+    },
+    {
+      "id": "33",
+      "name": "캐모마일 블랜드티",
+      "price": "4,300",
+      "img": "https://i.ibb.co/dBtbrFb/jpg.png"
+    },
+    {
+      "id": "34",
+      "name": "자두에이드",
+      "price": "5,000",
+      "img": "https://i.ibb.co/Gs9XQVH/jpg.png"
+    },
+    {
+      "id": "35",
+      "name": "자몽에이드",
+      "price": "5,000",
+      "img": "https://i.ibb.co/NyBf2Ws/image.png"
+    },
+    {
+      "id": "36",
+      "name": "자몽허니블랙에이드",
+      "price": "5,300",
+      "img": "https://i.ibb.co/Fww39nZ/feat-jpg.png"
+    },
+    {
+      "id": "37",
+      "name": "청포도에이드",
+      "price": "5,000",
+      "img": "https://i.ibb.co/b2FZX2G/image.png"
+    },
+    {
+      "id": "38",
+      "name": "레몬에이드",
+      "price": "5,000",
+      "img": "https://i.ibb.co/BK4BWGP/image.png"
+    }
+  ],
+  "dessert": [
+    {
+      "id": "39",
+      "name": "넛츠앤초코 쿠키",
+      "price": "3,000",
+      "img": "https://i.ibb.co/4mdp36D/image.png"
+    },
+    {
+      "id": "40",
+      "name": "레드벨벳 쿠키",
+      "price": "3,000",
+      "img": "https://i.ibb.co/R6CqR7c/image.png"
+    },
+    {
+      "id": "41",
+      "name": "오레오스모어 쿠키",
+      "price": "3,000",
+      "img": "https://i.ibb.co/3ztjmYS/image.png"
+    },
+    {
+      "id": "42",
+      "name": "말차 쿠키",
+      "price": "3,000",
+      "img": "https://i.ibb.co/1fZHxt8/image.png"
+    },
+    {
+      "id": "43",
+      "name": "황치즈 쿠키",
+      "price": "3,000",
+      "img": "https://i.ibb.co/kqbnWC5/image.png"
+    },
+    {
+      "id": "44",
+      "name": "흑임자인절미 쿠키",
+      "price": "3,000",
+      "img": "https://i.ibb.co/pbp9yp2/image.png"
+    },
+    {
+      "id": "45",
+      "name": "녹차브라우니 마카롱",
+      "price": "2,500",
+      "img": "https://i.ibb.co/ZgXCkX2/image.png"
+    },
+    {
+      "id": "46",
+      "name": "딸기요거트 마카롱",
+      "price": "2,500",
+      "img": "https://i.ibb.co/25WJs89/image.png"
+    },
+    {
+      "id": "47",
+      "name": "블루베리 마카롱",
+      "price": "2,500",
+      "img": "https://i.ibb.co/4TnFxTR/jpg.png"
+    },
+    {
+      "id": "48",
+      "name": "바닐라 마카롱",
+      "price": "2,500",
+      "img": "https://i.ibb.co/X48TrRz/jpg.png"
+    }
   ]
 }

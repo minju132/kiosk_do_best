@@ -1,5 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
+// import 장바구니 from './views/장바구니.vue'
 </script>
 
 <template>
@@ -18,6 +19,7 @@ import { RouterLink, RouterView } from 'vue-router'
     </div>
   </header>
   <RouterView />
+  <!-- <장바구니쓰/> -->
 </template>
 
 <style scoped>

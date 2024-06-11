@@ -1,45 +1,57 @@
 <script setup>
 import { useRoute } from 'vue-router';
-import { useBlogStore, useSkillStore } from '@/stores/blog'
+import { useReMenuStore, useCoffeeStore } from '@/stores/menu'
 import { watchEffect, ref } from 'vue';
 
 const route = useRoute();
-const blogStore = useBlogStore();
-const skillStore = useSkillStore();
-const modify = ref(true);
+const reMenuStore = useReMenuStore();
+const coffeeStore = useCoffeeStore();
 
 watchEffect(() => {
-    blogStore.detailsHandler(route.params.id);
+    reMenuStore.detailsHandler(route.params.id);
 });
 
-const handler = () => {
-    blogStore.modifyHandler({ id: route.params.id, ...blogStore.detailsBlog.value })
-}
-const deleteMethod = () => {
-    blogStore.deleteHandler(route.params.id);
+watchEffect(() => {
+    coffeeStore.detailsHandler(route.params.id);
+});
 
-}
 </script>
 
 <template>
-    <div class="blogContainer">
+    <div v-if="route.params.category === 'reMenu'" class="Container">
         <div class="titleContainer">
-            <h1 class="title"> {{ blogStore.detailsBlog.value?.name }}</h1>
+            <h1 class="title"> {{ reMenuStore.detailsReMenu.value?.name }}</h1>
         </div>
         <div class="contentContainer">
             <div class="content">
-                {{ blogStore.detailsBlog.value?.introduction }}
+                {{ reMenuStore.detailsReMenu.value?.price }}
             </div>
             <div>
-                <img class="imgBox" :src="blogStore.detailsBlog.value?.img" :alt="blogStore.detailsBlog.value?.name" />
+                <img class="imgBox" :src="reMenuStore.detailsReMenu.value?.img" :alt="reMenuStore.detailsReMenu.value?.name" />
             </div>
         </div>
         <button class="cancel-button" @click="$router.push('/')">취소</button>
     </div>
+
+    <div v-if="route.params.category === 'coffee'" class="Container">
+      <div class="titleContainer">
+        <h1 class="title">{{ coffeeStore.detailsCoffee.value?.name }}</h1>
+      </div>
+      <div class="contentContainer">
+        <div class="content">
+          {{ coffeeStore.detailsCoffee.value?.price }}
+        </div>
+        <div>
+          <img class="imgBox" :src="coffeeStore.detailsCoffee.value?.img" :alt="coffeeStore.detailsCoffee?.name" />
+        </div>
+      </div>
+      <button class="cancel-button" @click="$router.push('/')">취소</button>
+    </div>
+
 </template>
 
 <style scoped>
-.blogContainer {
+.Container {
     display: flex;
     flex-direction: column;
     align-items: center;

@@ -1,18 +1,18 @@
 <script setup>
-import BlogItem from './BlogItem.vue';
-import {useBlogStore} from "../../stores/blog"
-import { onMounted, provide } from "vue";
+import ReMenuItem from './ReMenuItem.vue';
+import { useReMenuStore } from "../../stores/menu"
+import { onMounted } from "vue";
 
-const blogStore = useBlogStore();
+const reMenuStore = useReMenuStore();
 
 onMounted(()=>{
-    blogStore.blogHandler();
+    reMenuStore.reMenuHandler();
 })
 </script>
 
 <template>
-    <div v-for="blog in blogStore.blogs" class="listBox">
-        <BlogItem :key="blog.id" :blog="blog"></BlogItem>
+    <div v-for="reMenu in reMenuStore.reMenus" class="listBox">
+        <ReMenuItem :key="reMenu.id" :reMenu="reMenu"></ReMenuItem>
     </div>
 </template>
 

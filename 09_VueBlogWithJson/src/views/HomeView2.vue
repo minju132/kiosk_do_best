@@ -1,29 +1,29 @@
 <script setup>
 import { useRouter } from "vue-router";
-import { useSkillStore } from "@/stores/blog";
+import { useCoffeeStore } from "@/stores/menu";
 import { onMounted } from "vue";
 
 const router = useRouter();
-const { skill } = defineProps(["skill"]);
+const { coffee } = defineProps(["coffee"]);
 
 function detailView(id) {
-    router.push(`/skills/${id}`);
+    router.push(`/coffee/${id}`);
 }
 
-const skillStore = useSkillStore();
+const coffeeStore = useCoffeeStore();
 
 onMounted(() => {
-    skillStore.skillHandler();
+    coffeeStore.coffeeHandler();
 })
 </script>
 
 <template>
     <main>
-        <div v-for="skill in skillStore.skills" class="listBox">
-            <div :key="skill.id" :skill="skill" @click="detailView(skill.id)" class="itemBox">
-                <div> {{ skill.skill }}</div>
-                <div> 가격 {{ skill.introduce }}</div>
-                <img :src="skill.imgs" class="itemImage" />
+        <div v-for="coffee in coffeeStore.coffees" class="listBox">
+            <div :key="coffee.id" :coffee="coffee" @click="detailView(coffee.id)" class="itemBox">
+                <div> {{ coffee.name }}</div>
+                <div> 가격 {{ coffee.price }}</div>
+                <img :src="coffee.img" class="itemImage" />
             </div>
         </div>
     </main>

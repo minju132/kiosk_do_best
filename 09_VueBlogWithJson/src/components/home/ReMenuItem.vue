@@ -2,19 +2,18 @@
 import { useRouter } from "vue-router";
 
 const router = useRouter();
-const {blog} = defineProps(["blog"]);
+const { reMenu } = defineProps(["reMenu"]);
 
 function detailView(id) {
-    router.push(`/blogs/${id}`);
+    router.push(`/reMenu/${id}`);
 }
 </script>
 
 <template>
-    <div class="itemBox" @click="detailView(blog.id)">
-        <div> {{ blog.name }}</div>
-        <div> 가격 {{  blog.price }}</div>
-        <img :src="blog.img" class="itemImage" />
-        <!-- <button @click="detailView(blog.id)">조회하기</button> -->
+    <div class="itemBox" @click="detailView(reMenu.id)">
+        <div> {{ reMenu.name }}</div>
+        <div> 가격 {{ reMenu.price }}</div>
+        <img :src="reMenu.img" class="itemImage" />
     </div>
 </template>
 
