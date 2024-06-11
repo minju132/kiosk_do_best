@@ -1,18 +1,21 @@
 <script setup>
 import { useRoute } from 'vue-router';
-import { useReMenuStore, useCoffeeStore } from '@/stores/menu'
+import { useReMenuStore, useCoffeeStore, useDeCoffeeStore } from '@/stores/menu'
 import { watchEffect, ref } from 'vue';
 
 const route = useRoute();
 const reMenuStore = useReMenuStore();
 const coffeeStore = useCoffeeStore();
+const deCoffeeStore = useDeCoffeeStore();
 
 watchEffect(() => {
     reMenuStore.detailsHandler(route.params.id);
 });
-
 watchEffect(() => {
     coffeeStore.detailsHandler(route.params.id);
+});
+watchEffect(() => {
+    deCoffeeStore.detailsHandler(route.params.id);
 });
 
 </script>
@@ -43,6 +46,21 @@ watchEffect(() => {
         </div>
         <div>
           <img class="imgBox" :src="coffeeStore.detailsCoffee.value?.img" :alt="coffeeStore.detailsCoffee?.name" />
+        </div>
+      </div>
+      <button class="cancel-button" @click="$router.push('/')">취소</button>
+    </div>
+
+    <div v-if="route.params.category === 'deCoffee'" class="Container">
+      <div class="titleContainer">
+        <h1 class="title">{{ deCoffeeStore.detailsDeCoffee.value?.name }}</h1>
+      </div>
+      <div class="contentContainer">
+        <div class="content">
+          {{ deCoffeeStore.detailsDeCoffee.value?.price }}
+        </div>
+        <div>
+          <img class="imgBox" :src="deCoffeeStore.detailsDeCoffee.value?.img" :alt="deCoffeeStore.detailsDeCoffee?.name" />
         </div>
       </div>
       <button class="cancel-button" @click="$router.push('/')">취소</button>

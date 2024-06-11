@@ -4,6 +4,7 @@ import AboutView from '@/views/AboutView.vue'
 import DetailsView from '@/views/DetailsView.vue'
 import BlogPost from '@/views/BlogPost.vue'
 import HomeView2 from '../views/HomeView2.vue'
+import deCoffee from '../views/deCoffee.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -17,6 +18,10 @@ const router = createRouter({
       path: '/home2',
       name: 'home2',
       component: HomeView2
+    },{
+      path: '/deCoffee',
+      name: 'decoffee',
+      component: deCoffee
     },
     {
       

@@ -49,3 +49,23 @@ export const useCoffeeStore = defineStore("coffee",()=>{
     
     return{coffees, detailsCoffee, coffeeHandler, detailsHandler}
 })
+
+export const useDeCoffeeStore = defineStore("deCoffee",()=>{
+    const router = useRouter();
+    const deCoffees = ref([{}]);
+    const detailsDeCoffee = reactive({});
+
+    const deCoffeeHandler = ()=>{   // 조회용
+        fetch(import.meta.env.VITE_API_URL + "/deCoffee")
+        .then(response => response.json())
+        .then(data => deCoffees.value = data);
+    }
+
+    const detailsHandler = (id) =>{
+        fetch(import.meta.env.VITE_API_URL + "/deCoffee/"+id)
+        .then(response => response.json())
+        .then(data => detailsDeCoffee.value = {...data});  // 깊은복사를 할 수 있게 하는 문법
+    }
+    
+    return{deCoffees, detailsDeCoffee, deCoffeeHandler, detailsHandler}
+})

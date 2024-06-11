@@ -8,11 +8,11 @@ import { RouterLink, RouterView } from 'vue-router'
     <!-- <img alt="Vue logo" class="logo" src="@/assets/logo.svg" width="125" height="125" /> -->
 
     <div class="wrapper">
-      
 
       <nav>
         <RouterLink to="/">Home</RouterLink>
         <RouterLink to="/home2">Home2</RouterLink>
+        <RouterLink to="/deCoffee">deCoffee</RouterLink>
         <RouterLink to="/about">About</RouterLink>
         <RouterLink to="/post">Post</RouterLink>        
       </nav>
