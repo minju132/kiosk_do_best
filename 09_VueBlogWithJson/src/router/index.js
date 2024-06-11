@@ -1,10 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import HomeView from '../views/HomeView.vue'
-import AboutView from '@/views/AboutView.vue'
 import DetailsView from '@/views/DetailsView.vue'
-import BlogPost from '@/views/BlogPost.vue'
 import HomeView2 from '../views/HomeView2.vue'
-import deCoffee from '../views/deCoffee.vue'
+import DeCoffee from '../views/DeCoffee.vue'
+import Smoothie from '../views/Smoothie.vue'
+import TeaAde from '../views/TeaAde.vue'
+import Dessert from '../views/Dessert.vue'
 
 const router = createRouter({
   history: createWebHistory(import.meta.env.BASE_URL),
@@ -12,7 +13,7 @@ const router = createRouter({
     {
       path: '/',
       name: 'home',
-      component: HomeView
+      component: HomeView 
     },
     {
       path: '/home2',
@@ -21,30 +22,30 @@ const router = createRouter({
     },{
       path: '/deCoffee',
       name: 'decoffee',
-      component: deCoffee
+      component: DeCoffee
     },
     {
-      
+      path: '/smoothie',
+      name: 'smoothie',
+      component: Smoothie
+    },
+    {
+      path: '/teaAde',
+      name: 'teaAde',
+      component: TeaAde
+    },
+    {
+      path: '/dessert',
+      name: 'dessert',
+      component: Dessert
+    },
+    {
         path: '/:category/:id',
         name: 'detail',
         // route level code-splitting
         // this generates a separate chunk (About.[hash].js) for this route
         // which is lazy-loaded when the route is visited.
         component: DetailsView//() => import('../views/AboutView.vue')
-      
-    },
-    {
-      path: "/post",
-      name: "post",
-      component:BlogPost
-    },
-    {
-      path: '/about',
-      name: 'about',
-      // route level code-splitting
-      // this generates a separate chunk (About.[hash].js) for this route
-      // which is lazy-loaded when the route is visited.
-      component: AboutView
     }
   ]
 })
