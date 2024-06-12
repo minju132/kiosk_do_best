@@ -113,43 +113,43 @@
   ],
   "deCoffee": [
     {
-      "id": "19",
+      "id": "1",
       "name": "(디카페인) 아메리카노",
       "price": "4,300",
       "img": "https://i.ibb.co/qsrY4ks/jpg.png"
     },
     {
-      "id": "20",
+      "id": "2",
       "name": "(디카페인) 카페라떼",
       "price": "4,800",
       "img": "https://i.ibb.co/tzYmcdW/jpg.png"
     },
     {
-      "id": "21",
+      "id": "3",
       "name": "(디카페인) 카푸치노",
       "price": "4,800",
       "img": "https://i.ibb.co/brv61Mw/jpg.png"
     },
     {
-      "id": "22",
+      "id": "4",
       "name": "(디카페인) 바닐라라떼",
       "price": "5,100",
       "img": "https://i.ibb.co/sjdWG8Y/jpg.png"
     },
     {
-      "id": "23",
+      "id": "5",
       "name": "(디카페인)더블 바닐라라떼",
       "price": "5,500",
       "img": "https://i.ibb.co/WVPJ5cc/jpg.png"
     },
     {
-      "id": "24",
+      "id": "6",
       "name": "(디카페인) 연유라떼",
       "price": "5,800",
       "img": "https://i.ibb.co/VBVzrSj/jpg.png"
     },
     {
-      "id": "25",
+      "id": "7",
       "name": "(디카페인) 카라멜 마끼아또",
       "price": "5,800",
       "img": "https://i.ibb.co/HnpLwBw/jpg.png"
@@ -157,25 +157,25 @@
   ],
   "smoothie": [
     {
-      "id": "26",
+      "id": "1",
       "name": "오리진 쉐이크",
       "price": "5,500",
       "img": "https://i.ibb.co/HnpLwBw/jpg.png"
     },
     {
-      "id": "27",
+      "id": "2",
       "name": "딸기 쉐이크",
       "price": "5,500",
       "img": "https://i.ibb.co/yQV5C01/image.png"
     },
     {
-      "id": "28",
+      "id": "3",
       "name": "초코쿠키 쉐이크",
       "price": "5,500",
       "img": "https://i.ibb.co/yQV5C01/image.png"
     },
     {
-      "id": "29",
+      "id": "4",
       "name": "딸기쿠키 쉐이크",
       "price": "5,800",
       "img": "https://i.ibb.co/Sy8KYkr/removebg.png"
@@ -183,55 +183,55 @@
   ],
   "teaAde": [
     {
-      "id": "30",
+      "id": "1",
       "name": "유자차",
       "price": "4,500",
       "img": "https://i.ibb.co/PgTQ2cS/jpg.png"
     },
     {
-      "id": "31",
+      "id": "2",
       "name": "페퍼민트 티",
       "price": "4,000",
       "img": "https://i.ibb.co/ZxxQcQP/image.png"
     },
     {
-      "id": "32",
+      "id": "3",
       "name": "보성녹차",
       "price": "4,000",
       "img": "https://i.ibb.co/WWcX8jx/image.png"
     },
     {
-      "id": "33",
+      "id": "4",
       "name": "캐모마일 블랜드티",
       "price": "4,300",
       "img": "https://i.ibb.co/dBtbrFb/jpg.png"
     },
     {
-      "id": "34",
+      "id": "5",
       "name": "자두에이드",
       "price": "5,000",
       "img": "https://i.ibb.co/Gs9XQVH/jpg.png"
     },
     {
-      "id": "35",
+      "id": "6",
       "name": "자몽에이드",
       "price": "5,000",
       "img": "https://i.ibb.co/NyBf2Ws/image.png"
     },
     {
-      "id": "36",
+      "id": "7",
       "name": "자몽허니블랙에이드",
       "price": "5,300",
       "img": "https://i.ibb.co/Fww39nZ/feat-jpg.png"
     },
     {
-      "id": "37",
+      "id": "8",
       "name": "청포도에이드",
       "price": "5,000",
       "img": "https://i.ibb.co/b2FZX2G/image.png"
     },
     {
-      "id": "38",
+      "id": "9",
       "name": "레몬에이드",
       "price": "5,000",
       "img": "https://i.ibb.co/BK4BWGP/image.png"
@@ -239,61 +239,61 @@
   ],
   "dessert": [
     {
-      "id": "39",
+      "id": "1",
       "name": "넛츠앤초코 쿠키",
       "price": "3,000",
       "img": "https://i.ibb.co/4mdp36D/image.png"
     },
     {
-      "id": "40",
+      "id": "2",
       "name": "레드벨벳 쿠키",
       "price": "3,000",
       "img": "https://i.ibb.co/R6CqR7c/image.png"
     },
     {
-      "id": "41",
+      "id": "3",
       "name": "오레오스모어 쿠키",
       "price": "3,000",
       "img": "https://i.ibb.co/3ztjmYS/image.png"
     },
     {
-      "id": "42",
+      "id": "4",
       "name": "말차 쿠키",
       "price": "3,000",
       "img": "https://i.ibb.co/1fZHxt8/image.png"
     },
     {
-      "id": "43",
+      "id": "5",
       "name": "황치즈 쿠키",
       "price": "3,000",
       "img": "https://i.ibb.co/kqbnWC5/image.png"
     },
     {
-      "id": "44",
+      "id": "6",
       "name": "흑임자인절미 쿠키",
       "price": "3,000",
       "img": "https://i.ibb.co/pbp9yp2/image.png"
     },
     {
-      "id": "45",
+      "id": "7",
       "name": "녹차브라우니 마카롱",
       "price": "2,500",
       "img": "https://i.ibb.co/ZgXCkX2/image.png"
     },
     {
-      "id": "46",
+      "id": "8",
       "name": "딸기요거트 마카롱",
       "price": "2,500",
       "img": "https://i.ibb.co/25WJs89/image.png"
     },
     {
-      "id": "47",
+      "id": "9",
       "name": "블루베리 마카롱",
       "price": "2,500",
       "img": "https://i.ibb.co/4TnFxTR/jpg.png"
     },
     {
-      "id": "48",
+      "id": "10",
       "name": "바닐라 마카롱",
       "price": "2,500",
       "img": "https://i.ibb.co/X48TrRz/jpg.png"
