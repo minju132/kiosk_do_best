@@ -1,4 +1,4 @@
-<script setup>
+<!-- <script setup>
 import { useRouter } from "vue-router";
 import {useReMenuStore} from '../stores/menu';
 import { watchEffect, ref } from "vue";
@@ -94,4 +94,4 @@ textarea {
     display: flex;
     flex-direction: column;
 }
-</style>
+</style> -->

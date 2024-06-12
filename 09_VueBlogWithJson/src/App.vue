@@ -1,6 +1,6 @@
 <script setup>
 import { RouterLink, RouterView } from 'vue-router'
-// import 장바구니 from './views/장바구니.vue'
+import cart from './views/cart.vue'
 </script>
 
 <template>
@@ -10,16 +10,17 @@ import { RouterLink, RouterView } from 'vue-router'
     <div class="wrapper">
 
       <nav>
-        <RouterLink to="/">Home</RouterLink>
-        <RouterLink to="/home2">Home2</RouterLink>
-        <RouterLink to="/deCoffee">deCoffee</RouterLink>
-        <RouterLink to="/about">About</RouterLink>
-        <RouterLink to="/post">Post</RouterLink>        
+        <RouterLink to="/">추천메뉴</RouterLink>
+        <RouterLink to="/home2">커피</RouterLink>
+        <RouterLink to="/deCoffee">디카페인</RouterLink>
+        <RouterLink to="/smoothie">스무디</RouterLink>
+        <RouterLink to="/teaAde">티,에이드</RouterLink>
+        <RouterLink to="/dessert">디저트</RouterLink>       
       </nav>
     </div>
   </header>
   <RouterView />
-  <!-- <장바구니쓰/> -->
+  <cart/>
 </template>
 
 <style scoped>
